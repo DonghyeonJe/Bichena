@@ -1,0 +1,87 @@
+.container#container-memList{
+	margin: 10px auto;
+	padding: 50px 20px;
+    border-radius: 8px;
+}
+.divTable{
+	margin-top: 50px;
+}
+
+/* 어드민 페이징처리 스타일 통일사항 */
+.list-pagination {
+	display: flex!important;
+	justify-content: center;
+	margin-bottom: 60px!important;
+	margin-top: 20px!important;
+}
+page-link:hover {
+    z-index: 2;
+    color: #005930!important!important;
+    text-decoration: none!important;
+    background-color: #e9ecef!important;
+    border-color: #dee2e6!important;
+    border-radios: 5px!important;
+}
+.page-link:focus {
+    box-shadow: 0 0 0 .2rem rgb(23 147 9 / 25%)!important;
+    color: #005930!important;
+    border-radius: 5px!important;
+}
+
+.page-link {
+    padding: .5rem .75rem!important;
+    margin-left: -1px;
+    line-height: 1.25!important;
+    color: #005930!important;
+    background-color: #fff!important;
+    border: none!important;
+}
+
+.page-item.active .page-link {
+    background-color: #005930!important;
+    border-color: #005930!important;
+    border-radius: 5px!important;
+    color:white!important;
+}
+.findMem{
+	text-align: center;
+	margin-top: 30px;
+	display: right;
+}
+
+/* 검색바통일사항 */
+.searchForm {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchForm select,
+.searchForm input[type="text"],
+.searchForm button {
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 10px 10px;;
+}
+
+.searchForm select {
+    width: 105px;
+}
+
+.searchForm input[type="text"] {
+    width: 230px;
+}
+
+.searchForm button {
+    background-color: #005930;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.searchForm button:hover {
+    background-color: #B8B388;
+}
